@@ -1,0 +1,67 @@
+/** All option files that belong to the current behavior have to be included by this file. */
+
+#include "Options/Soccer.h"
+
+#include "Options/HeadControl/HeadControl.h"
+
+#include "Options/GameControl/HandleGameState.h"
+#include "Options/GameControl/HandlePenaltyState.h"
+#include "Options/GameControl/PlayingState.h"
+#include "Options/GameControl/ReadyState.h"
+#include "Options/GameControl/ReadyState1.h"
+#include "Options/GameControl/KeeperReady.h"
+#include "Options/GameControl/Striker1Ready.h"
+#include "Options/GameControl/Striker2Ready.h"
+#include "Options/GameControl/Striker1kickOffReady.h"
+
+#include "Options/HeadControl/LookLeft.h"
+#include "Options/HeadControl/LookForward.h"
+#include "Options/HeadControl/A_LookLeftAndRight.h"
+#include "Options/Output/MotionRequest/Shoot.h"
+#include "Options/HeadControl/FollowTheTarget.h"
+#include "Options/HeadControl/LookUpandDown.h"
+
+#include "Options/Output/Activity.h"
+#include "Options/Output/Annotation.h"
+#include "Options/Output/HeadMotionRequest/SetHeadPanTilt.h"
+#include "Options/Output/MotionRequest/InWalkKick.h"
+#include "Options/Output/MotionRequest/SpecialAction.h"
+#include "Options/Output/MotionRequest/Stand.h"
+#include "Options/Output/MotionRequest/WalkAtAbsoluteSpeed.h"
+#include "Options/Output/MotionRequest/WalkAtRelativeSpeed.h"
+#include "Options/Output/MotionRequest/WalkToTarget.h"
+#include "Options/Output/MotionRequest/GetUpEngine.h"
+#include "Options/Output/PlaySound.h"
+#include "Options/Skills/GetUp.h"
+
+#include "Options/Roles/Striker_Backup.h"
+#include "Options/Roles/Striker1/Striker1.h"
+#include "Options/Roles/Striker1/S1Search.h"
+#include "Options/Roles/Striker1/S1Action.h"
+#include "Options/Roles/Striker2/Striker2.h"
+#include "Options/Roles/Striker2/S2Action.h"
+#include "Options/Roles/Striker2/S2Search.h"
+#include "Options/Roles/Defender2/Defender2.h"
+#include "Options/Roles/Defender2/D2Action.h"
+#include "Options/Roles/Defender2/D2Search.h"
+#include "Options/Roles/Defender1/Defender1.h"
+#include "Options/Roles/Defender1/D1Action.h"
+#include "Options/Roles/Defender1/D1Search.h"
+#include "Options/Roles/Keeper/Keeper.h"
+
+#include "Options/Roles/ActionTools/WalkToDestination.h"
+#include "Options/Roles/ActionTools/TurnAndSearchBall.h"
+#include "Options/Roles/ActionTools/ReadyAttack.h"
+#include "Options/Roles/ActionTools/TurnToTeamBall.h"
+#include "Options/Roles/ActionTools/Attack.h"
+#include "Options/Roles/ActionTools/Defend.h"
+
+
+#include "Options/Roles/TestStriker.h"
+#include "Options/Roles/Test1.h"
+#include "Options/Roles/Test2.h"
+
+#include "Options/DemoOptions/Demo.h"
+#include "Options/DemoOptions/Waving.h"
+
+#include "Options/Tools/ButtonPressedAndReleased.h"

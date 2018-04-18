@@ -1,0 +1,11 @@
+option(PlayingState)
+{
+  initial_state(demo)
+  {
+    action
+    {
+      //OUTPUT_TEXT("PlayingState_demo_action");
+      Demo();
+    }
+  }
+}
